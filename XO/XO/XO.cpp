@@ -1,7 +1,7 @@
 //Игра крестики-нолики
 #include <iostream>
 #include <vector>
-
+//Тут был андрюша
 using namespace std;
 
 void Play(char M[3][3], char c)
@@ -138,3 +138,4 @@ int main()
 
 	return 0;
 }
+//Конец кода
