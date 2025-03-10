@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//Игра крестики-нолики
+#include <iostream>
 #include <vector>
 
 using namespace std;
@@ -20,6 +21,7 @@ void Play(char M[3][3], char c)
 	M[y][x] = c;
 }
 
+//Вывод поля
 void Field(char M[3][3])
 {
 	system("cls");
@@ -34,6 +36,7 @@ void Field(char M[3][3])
 	}
 }
 
+//Проверка
 bool WinCheck(char M[3][3])
 {
 	int check[3][3];
